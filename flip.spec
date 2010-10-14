@@ -6,6 +6,7 @@ Summary:	rotate characters 180 degrees
 Group:		Applications/Text
 License:	GPLv3
 
+URL:        http://github.com/jumanjiman/flip
 Source0:	%{name}-%{version}.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
