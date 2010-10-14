@@ -40,6 +40,7 @@ gcc src/flip.c -o flip
 %{_bindir}/flip
 %doc src/flip.c
 %doc COPYING
+%doc README
 
 
 

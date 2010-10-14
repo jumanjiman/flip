@@ -1,0 +1,14 @@
+Transforms text on stdin by rotating each character
+180 degrees, essentially flipping each character upside down.
+
+flip < README
+⊥ɹɐusɟoɹɯs ʇǝxʇ ou sʇpıu qʎ ɹoʇɐʇıuƃ ǝɐɔɥ ɔɥɐɹɐɔʇǝɹ
+180 pǝƃɹǝǝs' ǝssǝuʇıɐʃʃʎ ɟʃıddıuƃ ǝɐɔɥ ɔɥɐɹɐɔʇǝɹ ndsıpǝ poʍu˙
+
+rev README | flip
+retcarahc hcae gnitator yb nidts no txet smrofsnarT
+.nwod edispu retcarahc hcae gnippilf yllaitnesse ,seerged 081
+
+tac README | rev | flip
+˙uʍop ǝpısdn ɹǝʇɔɐɹɐɥɔ ɥɔɐǝ ƃuıddıʃɟ ʎʃʃɐıʇuǝssǝ 'sǝǝɹƃǝp 081
+ɹǝʇɔɐɹɐɥɔ ɥɔɐǝ ƃuıʇɐʇoɹ ʎq uıpʇs uo ʇxǝʇ sɯɹoɟsuɐɹ⊥
