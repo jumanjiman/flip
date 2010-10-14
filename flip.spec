@@ -1,5 +1,5 @@
 Name:		flip
-Version:	0.1
+Version:	0.2
 Release:	1%{?dist}
 Summary:	rotate characters 180 degrees
 
@@ -43,6 +43,9 @@ gcc src/flip.c -o flip
 
 
 %changelog
+* Thu Oct 14 2010 Paul Morgan <jumanjiman@gmail.com> 0.2-1
+- fix wprintf: Illegal seek (msciabica@ise.com)
+
 * Thu Oct 14 2010 Paul Morgan <jumanjiman@gmail.com> 0.1-1
 - new package built with tito
 
