@@ -1,16 +1,16 @@
-Name:		flip
-Version:	0.2
-Release:	1%{?dist}
-Summary:	rotate characters 180 degrees
+Name:      flip
+Version:   0.2
+Release:   1%{?dist}
+Summary:   rotate characters 180 degrees
 
-Group:		Applications/Text
-License:	GPLv3
+Group:     Applications/Text
+License:   GPLv3
 
-URL:        http://github.com/jumanjiman/flip
-Source0:	%{name}-%{version}.tar.gz
-BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
+URL:       http://github.com/jumanjiman/flip
+Source0:   %{name}-%{version}.tar.gz
+BuildRoot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
-BuildRequires:	gcc
+BuildRequires: gcc
 
 %description
 Transforms text on stdin by rotating each character
