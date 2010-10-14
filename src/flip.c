@@ -150,14 +150,6 @@ int main(int argc, char *argv[])
 {
     int wide;
 
-    wprintf (L"hello\n");
-perror("wprintf");
-    wide = (fwide(stdout, 0) == 0);
-    printf("wide: %d", wide);
-
-
-
-int ret;
 wchar_t w=0x2021;
 wchar_t new;
 
@@ -176,7 +168,7 @@ while ( (w=getwchar()) != WEOF ) {
            w=new;
     } 
 
-ret=printf ("%lc", w);
+printf ("%lc", w);
 /*printf ("ret: %d\n", ret);
 ret=printf ("%x\n", w);
 printf ("ret: %d\n", ret); */
