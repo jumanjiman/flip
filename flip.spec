@@ -1,5 +1,5 @@
 Name:      flip
-Version:   0.3
+Version:   0.4
 Release:   1%{?dist}
 Summary:   rotate characters 180 degrees
 
@@ -45,6 +45,9 @@ gcc src/flip.c -o flip
 
 
 %changelog
+* Thu Oct 14 2010 Paul Morgan <jumanjiman@gmail.com> 0.4-1
+- added README with example usage (jumanjiman@gmail.com)
+
 * Thu Oct 14 2010 Paul Morgan <jumanjiman@gmail.com> 0.3-1
 - COPYING now has GPLv3 instead of GPLv2 (jumanjiman@gmail.com)
 - replace tabs with spaces in spec (jumanjiman@gmail.com)
